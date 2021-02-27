@@ -21,17 +21,3 @@ This book is created for Okta professionals and CIAM community members who are l
 ### Who is this not for?
 
 Anyone can refer to the book, but if you are just getting started with Okta, we encourage you to get started with our [developer page](https://developer.okta.com).
-
-## Index
-  * [Placeholder]()
-
-## Contributions
-We encourage and appreciate contributions from the community, feel free to submit an issue to get started.
-
-## Related
-- [Okta Multi Tenant Admin](https://docs.idp.rocks/)
-
-## Credits
-This wouldn't be possible without the contributions of the Okta CIAM Specialists. Their breadth of experiences with customers and users inspired the creation of this book.
-
-We are using ["just-the-docs"](https://github.com/pmarsceill/just-the-docs) as our Jekyll theme as a base for our theme.
