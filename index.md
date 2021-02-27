@@ -1,37 +1,37 @@
-## Welcome to GitHub Pages
+<div align="center">
+    <img src="/assets/images/cookbook-cover.png" width="300px">
+</div>
+<br>
+<br>
 
-You can use the [editor on GitHub](https://github.com/OktaCIAM/CIAM-Cookbook/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+# Okta CIAM Cookbook
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This is an open-source collection of recipes ranging from simple snippets and examples around **real-world* CIAM use cases.
 
-### Markdown
+However, due to the vast differences of environments, stacks, security and business requirements, etc, it's unrealistic to create a perfect plug-and-play sample.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Thus, as a **disclaimer**, this book is not intended to provide production grade code and/or is not officially supported by Okta. Instead, we encourage you to use these recipes as a guide to help connect the dots on where an implementation can start to unfold.
 
-```markdown
-Syntax highlighted code block
+We hope you enjoy and find what you are looking for.
 
-# Header 1
-## Header 2
-### Header 3
+### Who is this for?
 
-- Bulleted
-- List
+This book is created for Okta professionals and CIAM community members who are looking to find possible solutions or a starting point to a more complex scenario. Throughout the samples, we assume a prior knowledge of software development and understanding of Okta.
 
-1. Numbered
-2. List
+### Who is this not for?
 
-**Bold** and _Italic_ and `Code` text
+Anyone can refer to the book, but if you are just getting started with Okta, we encourage you to get started with our [developer page](https://developer.okta.com).
 
-[Link](url) and ![Image](src)
-```
+## Index
+  * [Placeholder]()
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Contributions
+We encourage and appreciate contributions from the community, feel free to submit an issue to get started.
 
-### Jekyll Themes
+## Related
+- [Okta Multi Tenant Admin](https://docs.idp.rocks/)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/OktaCIAM/CIAM-Cookbook/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## Credits
+This wouldn't be possible without the contributions of the Okta CIAM Specialists. Their breadth of experiences with customers and users inspired the creation of this book.
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+We are using ["just-the-docs"](https://github.com/pmarsceill/just-the-docs) as our Jekyll theme as a base for our theme.
