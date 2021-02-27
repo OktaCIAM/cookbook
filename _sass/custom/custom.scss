@@ -1,0 +1,67 @@
+// Base Sass File
+// Okta Theme Color Palette
+$blue: #00297A;
+$grey: #6E6E78;
+$lightGrey: #fafafa;
+
+$lightLilac: #CFB1C1;
+$lilac: #8D6E97;
+$darkLilac: #3C2B57;
+
+$lightTurquoise: #ABD5D6;
+$turquoise: #2D8C9E;
+$darkTurquoise: #095661;
+
+// Core
+a {
+    color: $lilac;
+}
+
+::selection {
+    background-color: $darkTurquoise;
+}
+
+// Sidebar
+.side-bar {
+    background: $lightGrey;
+}
+
+// Navigation
+nav {
+    a {
+        color: $turquoise;
+    }
+}
+
+// Search
+.search-input {
+    &:focus {
+        &+ .search-label .search-icon {
+            color: $turquoise;
+        }
+    }
+}
+
+.search-results {
+    a {
+        color: $darkTurquoise;
+    }
+}
+
+.search-result {
+    &:hover,
+    &.active {
+        background-color: #f5f5f6;
+    }
+
+    .search-result-icon {
+        color: $turquoise;
+    }
+}
+
+// Content
+.main-content {
+    .anchor-heading svg {
+        color: $turquoise;
+    }
+}
