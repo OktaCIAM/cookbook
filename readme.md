@@ -24,4 +24,4 @@ We encourage and appreciate contributions from the community, feel free to submi
 ## Credits
 This wouldn't be possible without the contributions of the Okta CIAM Specialists. Their breadth of experiences with customers and users inspired the creation of this book.
 
-We are using ["just-the-docs"](https://github.com/pmarsceill/just-the-docs) as our Jekyll theme as a base for our theme.
+We are using ["Just the Docs"](https://github.com/pmarsceill/just-the-docs) as our Jekyll theme as a base for our theme.
