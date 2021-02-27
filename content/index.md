@@ -1,3 +1,10 @@
+---
+layout: page
+title: Home
+permalink: /
+nav_order: 1
+---
+
 <div align="center">
     <img src="/assets/images/cookbook-cover.png" width="300px">
 </div>
@@ -21,3 +28,9 @@ This book is created for Okta professionals and CIAM community members who are l
 ### Who is this not for?
 
 Anyone can refer to the book, but if you are just getting started with Okta, we encourage you to get started with our [developer page](https://developer.okta.com).
+
+## Acknowledgements
+This wouldn't be possible without the contributions of the CIAM specialists. The bulk of this content is derived from their dedication and hardwork in the field.
+
+## See an issue?
+This is an open-source project, feel free to view the [repo](https://github.com/OktaCIAM/cookbook) and suggest improvements, topics, and more.
