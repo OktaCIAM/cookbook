@@ -6,7 +6,7 @@
 
 # Okta CIAM Cookbook
 
-This is an open-source collection of recipes ranging from simple snippets and examples around **real-world* CIAM use cases.
+This is an open-source collection of recipes ranging from simple snippets and examples around *real-world* CIAM use cases.
 
 **Disclaimer**, this book is not intended to provide production grade code and/or is not officially supported by Okta. Instead, we encourage you to use these recipes as a guide to help connect the dots on where an implementation can start to unfold.
 
