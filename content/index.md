@@ -6,7 +6,7 @@ nav_order: 1
 ---
 
 <div align="center">
-    <img src="/assets/images/cookbook-cover.png" width="300px">
+    <img src="assets/images/cookbook-cover.png" width="300px">
 </div>
 <br>
 <br>
