@@ -9,7 +9,14 @@ module.exports = {
       label: 'Sign In',
       items: [
         'sign-in/alternative-username',
-        'sign-in/recaptcha-v2-client'
+        {
+          type: 'category',
+          label: 'reCAPTCHA',
+          items: [
+            'sign-in/recaptcha-v2',
+            'sign-in/recaptcha-v3'
+          ]
+        }
       ]
     }
   ]

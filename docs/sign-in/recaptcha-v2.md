@@ -1,15 +1,17 @@
 ---
-id: recaptcha-v2-client
-title:  reCAPTCHA v2 Client Side Validation
-sidebar_label: reCAPTCHA v2 Client Side
-slug: /repcaptcha-v2-client-side
+id: recaptcha-v2
+title:  reCAPTCHA v2
+sidebar_label: reCAPTCHA v2
+slug: /repcaptcha-v2
 ---
 
 ## Problem
 Google's [reCAPTCHA v2](https://developers.google.com/recaptcha/intro) can be an additional layer of security for your applications to protect against spam or abuse from potential "non-humans". However, due to the nature of widgets and the asynchronous nature of JavaScript, it can be difficult to coordinate both widgets to interact together.
 
 ## Solution
-This solution pertains to a simple client-side validation, but you should be able to extend this approach to create an additional server-side validation.
+> Ensure your site key is registered to the correct type of reCAPTCHA version
+
+This sample below provides details around the client-side verification. Though it's worth noting that Okta does have it's own threat detection engine ([ThreatInsights](https://help.okta.com/en/prod/Content/Topics/Security/threat-insight/ti-index.htm)) to prevent malicious attacks and spam on authentication evaluations.
 
 ### Sign In Widget (Self-Hosted)
 #### Simple User Flow

@@ -59,7 +59,7 @@ function Home() {
     <Layout
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
-      <header className={clsx('hero hero--primary', styles.heroBanner)}>
+      <header className={clsx('hero', styles.heroBanner)}>
         <div className="container">
           <div className="row">
             <div class={clsx('col col--6', styles.heroIntro)}>
