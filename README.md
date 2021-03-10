@@ -16,7 +16,12 @@ This book is not intended to provide production grade code and/or is not officia
 We hope you enjoy and find what you are looking for. Happy coding 💻 🎉 🌈.
 
 ## Index
-  * [Placeholder]()
+  * [Introduction](https://oktaciam.github.io/cookbook/docs)
+  * Sign In
+  	* [Alternative Username](http://oktaciam.github.io/docs/alternative-username)
+  	* [reCAPTCHA v2](http://oktaciam.github.io/docs/repcaptcha-v2)
+  	* [reCAPTCHA v3](http://oktaciam.github.io/docs/repcaptcha-v3)
+
 
 ## Contributions
 We encourage and appreciate contributions from the community, feel free to submit an issue to get started.
