@@ -4,7 +4,7 @@ module.exports = {
   url: 'https://oktaciam.github.io/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  baseUrl: '/',
+  baseUrl: '/cookbook/',
   favicon: 'img/favicon.ico',
   organizationName: 'OktaCIAM', // Usually your GitHub org/user name.
   projectName: 'cookbook', // Usually your repo name.
