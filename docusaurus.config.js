@@ -6,7 +6,7 @@ module.exports = {
   onBrokenMarkdownLinks: 'warn',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'Okta CIAM', // Usually your GitHub org/user name.
+  organizationName: 'OktaCIAM', // Usually your GitHub org/user name.
   projectName: 'cookbook', // Usually your repo name.
   themeConfig: {
     navbar: {
