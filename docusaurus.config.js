@@ -1,10 +1,10 @@
 module.exports = {
   title: 'CIAM Cookbook',
   tagline: 'Recipes ranging from simple snippets and examples around real-world CIAM use cases',
-  url: 'https://oktaciam.github.io/',
+  url: 'http://ciam.solutions/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  baseUrl: '/cookbook/',
+  baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'OktaCIAM',
   projectName: 'cookbook',
