@@ -6,8 +6,8 @@ module.exports = {
   onBrokenMarkdownLinks: 'warn',
   baseUrl: '/cookbook/',
   favicon: 'img/favicon.ico',
-  organizationName: 'OktaCIAM', // Usually your GitHub org/user name.
-  projectName: 'cookbook', // Usually your repo name.
+  organizationName: 'OktaCIAM',
+  projectName: 'cookbook',
   themeConfig: {
     navbar: {
       title: 'CIAM Cookbook',
@@ -63,7 +63,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Okta CIAM Community. Built with Docusaurus.`,
     },
   },
   presets: [
