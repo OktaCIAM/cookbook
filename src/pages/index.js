@@ -5,7 +5,6 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
-import { baseUrl } from '../../docusaurus.config';
 
 const features = [
   {
@@ -57,8 +56,8 @@ function Home() {
   const {siteConfig = {}} = context;
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`${siteConfig.title} - Recipes for real-world CIAM use cases`}
+      description="An open-source collection of recipes ranging from simple snippets and examples around real-world CIAM (Customer Identity and Access Management) use cases.">
       <header className={clsx('hero', styles.heroBanner)}>
         <div className="container">
           <div className="row">
