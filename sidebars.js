@@ -9,6 +9,7 @@ module.exports = {
       label: 'Sign In',
       items: [
         'sign-in/alternative-username',
+        'sign-in/auto-send-sms',
         {
           type: 'category',
           label: 'reCAPTCHA',
