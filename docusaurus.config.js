@@ -58,7 +58,7 @@ module.exports = {
           items: [
             {
               label: 'Okta',
-              to: 'https://okta.com',
+              to: 'https://developer.okta.com',
             }
           ],
         },
