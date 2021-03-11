@@ -36,7 +36,7 @@ module.exports = {
           items: [
             {
               label: 'Okta Developer',
-              to: 'https://okta.com/developer',
+              to: 'https://developer.okta.com/',
             },
             {
               label: 'Okta Multi Tenant Admin',
@@ -58,7 +58,7 @@ module.exports = {
           items: [
             {
               label: 'Okta',
-              to: 'https://developer.okta.com',
+              to: 'https://okta.com',
             }
           ],
         },
