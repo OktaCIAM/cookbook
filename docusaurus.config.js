@@ -1,7 +1,7 @@
 module.exports = {
   title: 'CIAM Cookbook',
   tagline: 'Recipes ranging from simple snippets and examples around real-world CIAM use cases',
-  url: 'http://ciam.solutions/',
+  url: 'https://ciam.solutions/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   baseUrl: '/',
