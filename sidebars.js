@@ -16,7 +16,8 @@ module.exports = {
             'sign-in/recaptcha-v2',
             'sign-in/recaptcha-v3'
           ]
-        }
+        },
+        'sign-in/logo-per-context'
       ]
     }
   ]

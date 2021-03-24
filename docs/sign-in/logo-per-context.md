@@ -1,8 +1,8 @@
 ---
-id: dynamic-logo-per-context
-title: Dynamically Configure Logo Based on App Context
-sidebar_label: Dynamic Logos Based on App Context
-slug: /dynamic-logos
+id: logo-per-context
+title: Configure a Logo Based on App Context
+sidebar_label: Logo Based on App Context
+slug: /logo-per-app-context
 ---
 
 ## Problem
