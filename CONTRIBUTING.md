@@ -16,7 +16,7 @@ $ npm run build
 
 ## Submitting changes
 
-Please send a [GitHub Pull Request](https://github.com/OktaCIAM/cookbook/issues) with a clear list of what you've done (read more about [pull requests](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests/). When you send a pull request, we will love you forever if the follow conventions (below) and make sure all of your commits are atomic (one cookbook per commit).
+Please send a [GitHub Pull Request](https://github.com/OktaCIAM/cookbook/pulls) with a clear list of what you've done (read more about [pull requests](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests/). When you send a pull request, we will love you forever if the follow conventions (below) and make sure all of your commits are atomic (one cookbook per commit).
 
 Always write a clear log message for your commits. One-line messages are fine for small changes, but bigger changes should look like this:
 
@@ -27,4 +27,4 @@ Always write a clear log message for your commits. One-line messages are fine fo
 ## Content conventions
 
 - Should be `Problem`, `Solution`, `Discussion`, and `Credits(Optional)` structure.
-- Please use this Cookbook recipe as [example](https://ciam.solutions/docs/auto-send-sms-code).
+- Please use this cookbook recipe as [example](https://ciam.solutions/docs/auto-send-sms-code).
