@@ -18,6 +18,7 @@ module.exports = {
             'sign-in/recaptcha-v3'
           ]
         },
+        'sign-in/init-idp-discovery',
         'sign-in/logo-per-context'
       ]
     }
