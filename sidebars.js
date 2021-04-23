@@ -21,6 +21,13 @@ module.exports = {
           ]
         }
       ]
+    },
+    {
+      type: 'category',
+      label: 'Account Management',
+      items: [
+        'account/redirect-post-account-operations'
+      ]
     }
   ]
 };
