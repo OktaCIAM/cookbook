@@ -84,6 +84,13 @@ module.exports = {
           priority: 0.5,
           trailingSlash: false,
         },
+        themeConfig: {
+          googleAnalytics: {
+            trackingID: 'UA-195353978-1',
+            // Optional fields.
+            anonymizeIP: true, // Should IPs be anonymized?
+          },
+        },
       },
     ],
   ],
