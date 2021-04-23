@@ -65,6 +65,11 @@ module.exports = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Okta CIAM Community. Built with Docusaurus.`,
     },
+    googleAnalytics: {
+      trackingID: 'UA-195353978-1',
+      // Optional fields.
+      anonymizeIP: true, // Should IPs be anonymized?
+    },
   },
   presets: [
     [
@@ -83,11 +88,6 @@ module.exports = {
           changefreq: 'weekly',
           priority: 0.5,
           trailingSlash: false,
-        },
-        googleAnalytics: {
-          trackingID: 'UA-195353978-1',
-          // Optional fields.
-          anonymizeIP: true, // Should IPs be anonymized?
         },
       },
     ],
