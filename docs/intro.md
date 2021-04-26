@@ -3,6 +3,12 @@ id: intro
 title: Introduction
 sidebar_label: Introduction
 slug: /
+description: An introduction to the Okta CIAM Cookbook.
+keywords:
+- Okta CIAM
+- Okta CIAM Cookbook
+- Okta CIAM Samples
+- Okta Developers
 ---
 
 This is an open-source collection of recipes ranging from simple snippets and examples around *real-world* CIAM use cases.

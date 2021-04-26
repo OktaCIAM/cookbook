@@ -3,6 +3,12 @@ id: recaptcha-v3
 title:  reCAPTCHA v3
 sidebar_label: reCAPTCHA v3
 slug: /repcaptcha-v3
+description: How to configure Google reCAPTCHA v3 with Okta Signin Widget.
+keywords:
+- Okta CIAM
+- Google reCAPTCHA v3
+- Okta with Google reCAPTCHA
+- Okta with CAPTCHA 
 ---
 
 ## Problem
