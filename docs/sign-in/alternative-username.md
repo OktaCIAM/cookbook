@@ -3,6 +3,13 @@ id: alternative-username
 title: Alternative Username
 sidebar_label: Alternative Username
 slug: /alternative-username
+description: Utilize alternative username formats for authentication with the Okta Signin Widget.
+keywords:
+- Okta CIAM
+- Alternative Username
+- Rewards Number for Login
+- Loyalty Number for Login
+- Okta Signin Widget
 ---
 
 ## Problem

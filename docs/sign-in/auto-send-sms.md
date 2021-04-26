@@ -3,6 +3,12 @@ id: auto-send-sms
 title: Auto Send SMS Code Workaround
 sidebar_label: Auto Send SMS Code
 slug: /auto-send-sms-code
+description: Configure the Okta Signin Widget to auto send SMS code upon MFA verification
+keywords:
+- Okta CIAM
+- MFA SMS Factor
+- Auto Send SMS Code
+- Okta Signin Widget
 ---
 
 ## Problem

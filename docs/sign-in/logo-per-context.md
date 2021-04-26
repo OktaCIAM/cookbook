@@ -3,6 +3,12 @@ id: logo-per-context
 title: Configure a Logo Based on App Context
 sidebar_label: Logo Based on App Context
 slug: /logo-per-app-context
+description: Dynamically render different logos for the Okta Signin Widget per application context.
+keywords:
+- Okta CIAM
+- Logo based on Application Context
+- Multiple Applications with Okta
+- Okta Signin Widget
 ---
 
 ## Problem
