@@ -28,6 +28,13 @@ module.exports = {
       items: [
         'account/redirect-post-account-operations'
       ]
+    },
+    {
+      type: 'category',
+      label: 'Reporting',
+      items: [
+        'reporting/get-current-monthly-active-users'
+      ]
     }
   ]
 };
