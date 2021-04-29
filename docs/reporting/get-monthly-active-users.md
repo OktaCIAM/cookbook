@@ -34,14 +34,14 @@ const API_KEY = 'YOUR_API_TOKEN';
 const OKTA_ORG_URL = 'https://your-okta-domain.okta.com';
 
 const date = new Date();
-// Configure the dates to be set to first and end of month in UTC 
+// Configure the dates to be set to first and end of month in UTC
 const since = new Date(Date.UTC(date.getFullYear(), date.getMonth(), 1, 0, 0, 0, 0)).toISOString();
 const until = new Date(Date.UTC(date.getFullYear(), date.getMonth() + 1, 0, 0, 0, 0, 0)).toISOString();
 
 // Retry Mechanism
 const defaultRequestExecutor = new okta.DefaultRequestExecutor({
     maxRetries: 10,
-    requestTimeout: 0 
+    requestTimeout: 0
 });
 
 const client = new okta.Client({
@@ -126,6 +126,6 @@ It's possible to recreate these solution using the native HTTP module, but the r
 In addition, these solutions can be extend to derive other meaningful things such as the most active user, least active user, etc.
 
 ## Credits
-Credits to Jay Venkatraj for proposing this problem to the CIAM community and [Brandon Him](https://github.com/brh55) for the initial recipe.
+Credits to [Jay Venkatraj]() for proposing this problem to the CIAM community and [Brandon Him](https://github.com/brh55) for the initial recipe.
 
 Feel free to contribute support for other languages by [submitting a PR](https://github.com/OktaCIAM/cookbook/pulls).
