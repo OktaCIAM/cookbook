@@ -125,21 +125,20 @@ const createMaxSessionTimeoutPolicy = async () => {
         description: POLICY_DESCRIPTION
       });
 
-      const rule = await policy
-        .createRule({
-          "type": "SIGN_ON",
-          "name": RULE_NAME,
-          "actions": {
-              "signon": {
-                  "access": "ALLOW",
-                  "session": {
-                      "maxSessionLifetimeMinutes": MAX_LIFETIME_MINUTES,
-                      "usePersistentCookie": USE_PERSISTENT_COOKIE,
-                      "maxSessionIdleMinutes": MAX_SESSION_IDLE_MINUTES
-                  }
-              }
+      const rule = await policy.createRule({
+        "type": "SIGN_ON",
+        "name": RULE_NAME,
+        "actions": {
+          "signon": {
+            "access": "ALLOW",
+            "session": {
+              "maxSessionLifetimeMinutes": MAX_LIFETIME_MINUTES,
+              "usePersistentCookie": USE_PERSISTENT_COOKIE,
+              "maxSessionIdleMinutes": MAX_SESSION_IDLE_MINUTES
+            }
           }
-        });
+        }
+      });
 
       if (rule) {
         console.log(`
@@ -158,13 +157,13 @@ Reason: ${err}`)
 createMaxSessionTimeoutPolicy();
 ```
 
-### Try it yourself
-Alternatively, you can use the REPL below to execute the script without the need of setting up any additional environments or tools.
+#### Try it yourself
+You can use the REPL below to execute the script without the need of setting up any additional environments or tools, simply update the environment variables and configure the settings.
 
 <iframe frameborder="0" width="100%" height="500px" src="https://repl.it/@brh55/max-session-timeout-okta?lite=true"></iframe>
 
 ## Discussion
-When setting the rule the `maxSessionLifetimeMinutes`, Okta expects the `maxSessionIdleMinutes` to be set to equal or lesser than the session lifetime minutes.
+When setting the rule the `maxSessionLifetimeMinutes`, Okta expects the `maxSessionIdleMinutes` to be set to equal or lesser than the sessionlifetime minutes.
 
 ## Credits
 Credit to Sudipto Desmukh for providing this solution, his original write up can be found on his [blog](http://ptotech.blogspot.com/2018/03/sudipto-desmukh-set-maximum-session-timeout.html?m=1) and [Brandon Him](https://github.com/brh55) for the write-up and sample script.
