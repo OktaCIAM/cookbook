@@ -42,6 +42,13 @@ module.exports = {
       items: [
         'tokens/external-idp-tokens'
       ]
+    },
+    {
+      type: 'category',
+      label: 'Reporting',
+      items: [
+        'reporting/get-current-monthly-active-users'
+      ]
     }
   ]
 };
