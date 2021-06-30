@@ -70,7 +70,7 @@ client.getLogs({
 #### Try it Yourself
 You can run the sample script below to test the code for your own instances, simply update the secrets `API_TOKEN` and `ORG_URL` with your values.
 
-<iframe height="400px" width="100%" src="https://replit.com/@brh55/get-mau-nodejs?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="400px" width="100%" src="https://replit.com/@brh55/get-mau-nodejs-okta?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 
 ### Python 3.6.0 or higher
@@ -118,7 +118,7 @@ loop.run_until_complete(main())
 #### Try it Yourself
 You can run the sample script below to test the code for your own instances, simply update the secrets `API_TOKEN` and `ORG_URL` with your values.
 
-<iframe height="400px" width="100%" src="https://replit.com/@brh55/OKTA-MAU-SAMPLE?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="400px" width="100%" src="https://replit.com/@brh55/get-mau-python-okta?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ## Discussion
 It's possible to recreate these solution using the native HTTP module, but the recipes provided utilize the Okta SDKs to simplify the nuances of handling rate-limits and pagination with the API.
