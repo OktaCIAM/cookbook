@@ -38,6 +38,13 @@ module.exports = {
     },
     {
       type: 'category',
+      label: 'Sessions',
+      items: [
+        'sessions/max-session-timeout'
+      ]
+    },
+    {
+      type: 'category',
       label: 'Tokens',
       items: [
         'tokens/external-idp-tokens'
