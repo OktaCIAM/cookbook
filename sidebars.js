@@ -6,6 +6,13 @@ module.exports = {
     },
     {
       type: 'category',
+      label: 'Account Management',
+      items: [
+        'account/redirect-post-account-operations'
+      ]
+    },
+    {
+      type: 'category',
       label: 'Sign In',
       items: [
         'sign-in/alternative-username',
@@ -24,9 +31,16 @@ module.exports = {
     },
     {
       type: 'category',
-      label: 'Account Management',
+      label: 'Reporting',
       items: [
-        'account/redirect-post-account-operations'
+        'reporting/get-current-monthly-active-users'
+      ]
+    },
+    {
+      type: 'category',
+      label: 'Tokens',
+      items: [
+        'tokens/external-idp-tokens'
       ]
     },
     {
