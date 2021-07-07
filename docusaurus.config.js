@@ -35,8 +35,12 @@ module.exports = {
           title: 'Related',
           items: [
             {
-              label: 'Okta Developer',
+              label: 'Okta Developer Documentation',
               to: 'https://developer.okta.com/',
+            },
+            {
+              label: 'Okta Developer Support Forum',
+              to: 'https://devforum.okta.com/',
             },
             {
               label: 'Okta Multi Tenant Admin',
