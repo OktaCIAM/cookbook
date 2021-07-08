@@ -42,3 +42,8 @@ authClient.token.getWithoutPrompt({
 
 ## Discussion
 In practice, this approach will generally be used for applications with an SSO requirements. For some applications that just need updated JWTs, they can most likely leverage a short-lived, continually [rotated `refresh token`](https://developer.okta.com/docs/guides/refresh-tokens/refresh-token-rotation/).
+
+### Related Links
+- [FAQ: How Blocked Third Party Cookies Can Potentially Impact Your Okta Environment](https://support.okta.com/help/s/article/FAQ-How-Blocking-Third-Party-Cookies-Can-Potentially-Impact-Your-Okta-Environment?language=en_US)
+- [Dev Forum: By what date should we implement refresh token rotation](https://devforum.okta.com/t/by-what-date-should-we-implement-refresh-token-rotation/15035/7)
+- [Dev Forum: Getting a fresh JWT token](https://devforum.okta.com/t/getting-a-fresh-jwt-on-demand/14686)
