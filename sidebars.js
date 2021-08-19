@@ -47,7 +47,8 @@ module.exports = {
       type: 'category',
       label: 'Tokens',
       items: [
-        'tokens/external-idp-tokens'
+        'tokens/external-idp-tokens',
+        'tokens/get-token-with-existing-session'
       ]
     }
   ]
