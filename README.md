@@ -8,7 +8,7 @@
     <br>
 </div>
 
-> [Okta](https://developer.okta.com/) has Authentication and User Management APIs that reduce development time with instant-on, scalable user infrastructure. Okta's intuitive API and expert support make it easy for developers to authenticate, manage and secure users and roles in any application.
+> [Okta](https://developer.okta.com/) has Authentication and User Management APIs that reduces development time with instant-on, scalable user infrastructure. Okta's intuitive API and expert support make it easy for developers to authenticate, manage and secure users and roles in any application.
 > Get started with a [free Developer tenant](https://developer.okta.com/) today.
 
 This is an open-source collection of recipes ranging from simple snippets and examples around *real-world* CIAM use cases. Check it out [live](https://ciam.solutions/).

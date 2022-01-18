@@ -11,9 +11,9 @@ keywords:
 - Okta Developers
 ---
 
-This is an open-source collection of recipes ranging from simple snippets and examples around *real-world* CIAM use cases.
+This is an open-source collection of recipes ranging from simple snippets to practical examples around *real-world* CIAM use cases using Okta.
 
-However, due to the vast differences of environments, stacks, security and business requirements, etc, it's unrealistic to create a perfect plug-and-play sample.
+However, due to the vast differences of environments, stacks, security and business requirements, etc, it's unrealistic to create a perfect plug-and-play recipe, so we hope you can utilize this to help guide you to your solution.
 
 ## Disclaimer
 This book is not intended to provide production grade code and/or is not officially supported by Okta. Instead, we encourage you to use these recipes as a guide to help connect the dots on where an implementation can start to unfold. The book is not an official Okta product and does not qualify for any Okta support. Okta makes no warranties regarding this project. Anyone who chooses to use this cookbook/recipes must ensure that their implementation meets any applicable legal obligations including any Okta terms and conditions.
