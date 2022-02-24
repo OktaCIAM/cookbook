@@ -50,6 +50,13 @@ module.exports = {
         'tokens/external-idp-tokens',
         'tokens/get-token-with-existing-session'
       ]
+    },
+    {
+      type: 'category',
+      label: 'Hooks',
+      items: [
+        'hooks/pass-state-data-to-token-hooks',
+      ]
     }
   ]
 };
