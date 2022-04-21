@@ -19,9 +19,10 @@ module.exports = {
         'sign-in/auto-send-sms',
         'sign-in/init-idp-discovery',
         'sign-in/logo-per-context',
+        'sign-in/hide-connecting-to-banner',
         {
           type: 'category',
-          label: 'reCAPTCHA',
+          label: 'reCAPTCHA (Classic)',
           items: [
             'sign-in/recaptcha-v2',
             'sign-in/recaptcha-v3'
